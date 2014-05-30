@@ -6,7 +6,7 @@ class ScreenfetchC < Formula
 	sha1 "8d21049fde9a27a1a895ccbd1d782fd28f3908d5"
 
 	def install
-		system "make"
+		system "make", "osx"
 		system "make", "install"
 	end
 end
