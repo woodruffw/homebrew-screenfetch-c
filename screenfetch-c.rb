@@ -8,7 +8,7 @@ class ScreenfetchC < Formula
 
 	def install
 		system "make", "osx"
-		bin.install "src/screenfetch-c"
+		bin.install "screenfetch-c"
 		bin.install "src/detectde"
 		bin.install "src/detectwm"
 		bin.install "src/detectwmtheme"
