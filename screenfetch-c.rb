@@ -8,6 +8,6 @@ class ScreenfetchC < Formula
 
 	def install
 		system "make", "osx", "prefix=#{prefix}"
-		system "make", "prefix=#{prefix}"
+		system "make", "install", "prefix=#{prefix}"
 	end
 end
