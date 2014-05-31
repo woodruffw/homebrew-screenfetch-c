@@ -14,6 +14,6 @@ class ScreenfetchC < Formula
 		bin.install "src/detectwmtheme"
 		bin.install "src/detectgtk"
 		bin.install "src/detectgpu"
-		man.install "manpage/screenfetch-c.1"
+		man1.install "manpage/screenfetch-c.1"
 	end
 end
