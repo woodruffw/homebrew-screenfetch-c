@@ -2,9 +2,8 @@ require "formula"
 
 class ScreenfetchC < Formula
     homepage "http://woodruffw.us/realsite/projects/screenfetch-c.html"
-    version "1.2"
-    url "https://github.com/woodruffw/screenfetch-c/archive/1.2-fix2.tar.gz"
-    sha1 "0eee57ecd156ae818efce48f3ca80e706050a8c6"
+    url "https://github.com/woodruffw/screenfetch-c/archive/1.2.2.tar.gz"
+    sha1 "94d3e66f335e98892fff1916ece665cdc41211b0"
 
     def install
         system "make", "osx"
